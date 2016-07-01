@@ -1,0 +1,587 @@
+@font-face {
+  font-family: 'Geogrotesque';
+  src: url('../fonts/geogtq-rg-webfont.eot');
+  src: url('../fonts/geogtq-rg-webfont?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/geogtq-rg-webfont.woff') format('woff'), /* Pretty Modern Browsers */ url('../fonts/geogtq-rg-webfont.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/geogtq-rg-webfont.svg#geogrotesque_rgregular') format('svg');
+  
+  /* IE9 Compat Modes */
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Geogrotesque Medium';
+  src: url('../fonts/geogtq-md-webfont.eot');
+  src: url('../fonts/geogtq-md-webfont?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/geogtq-md-webfont.woff') format('woff'), /* Pretty Modern Browsers */ url('../fonts/geogtq-md-webfont.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/geogtq-md-webfont.svg#geogrotesque_mdmedium') format('svg');
+  
+  /* IE9 Compat Modes */
+  /* Legacy iOS */
+}
+/*	Variables	*/
+/*  Large screens  */
+@media all and (min-width: 2560px) {
+  html body #footer .line {
+    padding-right: 125px;
+  }
+}
+/*	Mac average  */
+/*  Windows Average  */
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  html body section .row {
+    padding: 0px 15px;
+  }
+  html body .header {
+    position: fixed;
+  }
+  html body .header img {
+    width: 130%;
+  }
+  html body .header .menu {
+    overflow: hidden;
+  }
+  html body .header .menu h2 {
+    margin: 0px 0px;
+  }
+  html body .header .menu ul {
+    display: none;
+    margin: 0px;
+  }
+  html body .header .menu ul li {
+    background: #11435f;
+    color: #fff;
+    display: block;
+    float: none;
+    font-size: 24px;
+    padding: 25px 0px;
+  }
+  html body .header .menu ul li:hover {
+    color: #d05328;
+  }
+  html body .header .menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 0px;
+  }
+  html body .header .menu-toggle {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    z-index: 9999;
+    overflow: hidden;
+  }
+  html body .sub-menu {
+    padding: 25vh 0;
+    text-align: center;
+    height: 100vh;
+    background: #11435f;
+    opacity: .9;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px 0px;
+    z-index: 9;
+    box-sizing: border-box;
+  }
+  html body .masthead svg.slant {
+    display: none;
+  }
+  html body .masthead h3 {
+    margin: 0px;
+  }
+  html body .masthead h5 {
+    margin: 16px 0px 0px 0px;
+  }
+  html body .masthead .bottom {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    background: rgba(17, 67, 95, 0.9);
+  }
+  html body #newsletter form {
+    margin-bottom: 3.8em;
+  }
+  html body #newsletter form input {
+    border-right: 1px solid #11435f;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  html body #newsletter form .btn {
+    min-width: 150px;
+    margin: 0px auto;
+    float: none;
+  }
+  html body #wall ul {
+    margin-top: 0px;
+  }
+  html body #wall ul li {
+    margin: 0px 25px 30px 25px;
+  }
+  html body #wall .wall-item {
+    width: 97%;
+    margin: 1%;
+  }
+  html body .case {
+    min-height: 50vh;
+    width: 100%;
+  }
+  html body .case svg.slant {
+    display: none;
+  }
+  html body .case h3 {
+    margin: 0px;
+  }
+  html body .case h5 {
+    margin: 16px 0px 0px 0px;
+  }
+  html body .case .row {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    background: rgba(208, 83, 40, 0.7);
+  }
+  html body #footer {
+    padding: 50px 0px 30px 0px;
+  }
+  html body #footer .logo {
+    margin-bottom: 0px;
+  }
+  html body #footer .logo img {
+    width: 30%;
+  }
+  html body #footer .row {
+    padding: 0px;
+  }
+  html body #footer .office {
+    margin: 20px 0px;
+  }
+  html body #footer .line {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 0px;
+    padding: 20px 32px;
+  }
+  html body .fmenu {
+    text-align: center;
+  }
+  html body .fmenu ul {
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+  }
+  html body .fmenu ul li {
+    padding: 10px 20px;
+  }
+  .show--mobile {
+    display: block !important;
+  }
+  .hide--mobile {
+    display: none;
+  }
+}
+/*  Tablet  */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  html body section .row {
+    padding: 0px 15px;
+  }
+  html body .header {
+    position: fixed;
+  }
+  html body .header img {
+    width: 50%;
+  }
+  html body .header .menu {
+    overflow: hidden;
+  }
+  html body .header .menu h2 {
+    margin: 0px 0px;
+  }
+  html body .header .menu ul {
+    display: none;
+    margin: 0px;
+  }
+  html body .header .menu ul li {
+    background: #11435f;
+    color: #fff;
+    display: block;
+    float: none;
+    font-size: 24px;
+    padding: 25px 0px;
+  }
+  html body .header .menu ul li:hover {
+    color: #d05328;
+  }
+  html body .header .menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 0px;
+  }
+  html body .header .menu-toggle {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    z-index: 9999;
+    overflow: hidden;
+  }
+  html body .sub-menu {
+    padding: 25vh 0;
+    text-align: center;
+    height: 100vh;
+    background: #11435f;
+    opacity: .9;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px 0px;
+    z-index: 9;
+    box-sizing: border-box;
+  }
+  html body .masthead svg.slant {
+    display: none;
+  }
+  html body .masthead h3 {
+    margin: 0px;
+  }
+  html body .masthead h5 {
+    margin: 16px 0px 0px 0px;
+  }
+  html body .masthead .bottom {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    background: rgba(17, 67, 95, 0.9);
+  }
+  html body .masthead .bottom.case--text {
+    bottom: 40vh;
+  }
+  html body .masthead .case--text .authorimg {
+    margin-top: 15px;
+  }
+  html body .masthead .case--text h4 {
+    margin-top: 1em;
+  }
+  html body .masthead .case--text h4.author {
+    margin: 40px 0px 20px 80px;
+  }
+  html body #newsletter form {
+    margin-bottom: 3.8em;
+  }
+  html body #newsletter form input {
+    border-right: 1px solid #11435f;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  html body #newsletter form .btn {
+    min-width: 150px;
+    margin: 0px auto;
+    float: none;
+    background: #d05328;
+    color: #fff;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+  }
+  html body #newsletter form .btn:hover {
+    background: #fff;
+    color: #11435f;
+  }
+  html body #wall ul {
+    margin-top: 0px;
+  }
+  html body #wall ul li {
+    margin: 0px 25px 30px 25px;
+  }
+  html body #wall .wall-item {
+    width: 97%;
+    margin: 1%;
+  }
+  html body .case {
+    min-height: 50vh;
+    width: 100%;
+  }
+  html body .case svg.slant {
+    display: none;
+  }
+  html body .case h3 {
+    margin: 0px;
+  }
+  html body .case h5 {
+    margin: 16px 0px 0px 0px;
+  }
+  html body .case .row {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    background: rgba(208, 83, 40, 0.7);
+  }
+  html body #footer {
+    padding: 50px 0px 30px 0px;
+  }
+  html body #footer .logo {
+    margin-bottom: 0px;
+  }
+  html body #footer .logo img {
+    width: 30%;
+  }
+  html body #footer .row {
+    padding: 0px;
+  }
+  html body #footer .office {
+    margin: 20px 0px;
+  }
+  html body #footer .line {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 0px;
+    padding: 20px 32px;
+  }
+  html body .fmenu {
+    text-align: center;
+  }
+  html body .fmenu ul {
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+  }
+  html body .fmenu ul li {
+    padding: 10px 20px;
+  }
+  html body .mobile--padding {
+    padding: 50px;
+  }
+  .show--mobile {
+    display: block;
+  }
+  .hide--mobile {
+    display: none;
+  }
+}
+/*  Phone  */
+@media all and (max-width: 767px) {
+  html body section .row {
+    padding: 0px 15px;
+  }
+  html body .show--mobile {
+    display: block;
+  }
+  html body .hide--mobile {
+    display: none;
+  }
+  html body .header {
+    position: fixed;
+  }
+  html body .header img {
+    width: 60%;
+  }
+  html body .header .menu {
+    overflow: hidden;
+  }
+  html body .header .menu h2 {
+    margin: 0px 0px;
+  }
+  html body .header .menu ul {
+    display: none;
+    margin: 0px;
+  }
+  html body .header .menu ul li {
+    background: #11435f;
+    color: #fff;
+    display: block;
+    float: none;
+    font-size: 24px;
+    padding: 25px 0px;
+  }
+  html body .header .menu ul li:hover {
+    color: #d05328;
+  }
+  html body .header .menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 0px;
+  }
+  html body .header .menu-toggle {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    z-index: 9999;
+    overflow: hidden;
+  }
+  html body .sub-menu {
+    padding: 25vh 0;
+    text-align: center;
+    height: 100vh;
+    background: #11435f;
+    opacity: .9;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px 0px;
+    z-index: 9;
+    box-sizing: border-box;
+  }
+  html body .masthead svg.slant {
+    display: none;
+  }
+  html body .masthead h3 {
+    margin: 0px;
+  }
+  html body .masthead h5 {
+    margin: 16px 0px 0px 0px;
+  }
+  html body .masthead .bottom {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    background: rgba(17, 67, 95, 0.9);
+  }
+  html body .masthead .bottom.case--text {
+    bottom: 40vh;
+  }
+  html body .masthead .case--text h4 {
+    margin-top: 1em;
+  }
+  html body .masthead .case--text .authorimg {
+    margin-top: 15px;
+  }
+  html body .masthead .case--text h4 {
+    margin-top: 1em;
+  }
+  html body .masthead .case--text h4.author {
+    margin: 40px 0px 20px 80px;
+  }
+  html body #newsletter form {
+    margin-bottom: 3.8em;
+  }
+  html body #newsletter form input {
+    border-right: 1px solid #11435f;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  html body #newsletter form .btn {
+    min-width: 150px;
+    margin: 0px auto;
+    float: none;
+    background: #d05328;
+    color: #fff;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+  }
+  html body #newsletter form .btn:hover {
+    background: #fff;
+    color: #11435f;
+  }
+  html body #wall ul {
+    margin-top: 0px;
+  }
+  html body #wall ul li {
+    margin: 0px 25px 30px 25px;
+  }
+  html body #wall .wall-item {
+    width: 97%;
+    margin: 1%;
+  }
+  html body .case {
+    min-height: 50vh;
+    width: 100%;
+  }
+  html body .case svg.slant {
+    display: none;
+  }
+  html body .case h3 {
+    margin: 0px;
+  }
+  html body .case h5 {
+    margin: 16px 0px 0px 0px;
+  }
+  html body .case .row {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    background: rgba(208, 83, 40, 0.7);
+  }
+  html body #footer .logo {
+    margin-bottom: 0px;
+  }
+  html body #footer .logo img {
+    width: 50%;
+  }
+  html body #footer .row {
+    padding: 0px;
+  }
+  html body #footer .office {
+    margin-bottom: 0px;
+  }
+  html body #footer .line {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 0px;
+    padding: 20px 32px;
+  }
+  html body #footer .mobile--line {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 0px;
+    padding: 20px 32px;
+    display: inline-block;
+  }
+  html body #footer .mobile--padding {
+    padding-top: 20px;
+  }
+  html body .fmenu {
+    text-align: center;
+  }
+  html body .fmenu ul {
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+  }
+  html body .fmenu ul li {
+    padding: 10px 20px;
+  }
+  html body .mobile--padding {
+    padding: 30px;
+  }
+  html body .statement h4 {
+    margin: 2em 0 2em 0;
+  }
+  html body p.phase {
+    margin-top: 20px;
+    line-height: 32px;
+  }
+  html body .process--orange {
+    position: relative;
+  }
+  html body .process--orange::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    background: #d05328;
+    opacity: .8;
+  }
+  html body .process--orange .item {
+    height: auto;
+  }
+}

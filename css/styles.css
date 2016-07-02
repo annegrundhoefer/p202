@@ -659,6 +659,9 @@ section .row {
   transition: all 0.2s ease-in-out;
 }
 /*	Newsletter  */
+#newsletter {
+  margin-bottom: 170px;
+}
 #newsletter form {
   width: 100%;
   display: block;
@@ -747,9 +750,6 @@ section .row {
   transition: all 0.2s ease-in-out;
 }
 /*	Forms  */
-form {
-  margin-bottom: 170px;
-}
 form label {
   width: 100%;
   display: inline-block;
@@ -1000,4 +1000,58 @@ p.phase {
 }
 p.phase.center {
   text-align: center;
+}
+/*	Contact  */
+#contact .title h4 {
+  margin-bottom: 2em;
+}
+#contact form {
+  width: 100%;
+  display: block;
+}
+#contact form input {
+  margin-bottom: 1em;
+  width: 100%;
+  line-height: 12px;
+  height: 44px;
+}
+#contact form textarea {
+  width: 100%;
+  border: 1px solid #11435f;
+  border-radius: 2px;
+  margin-top: 0px;
+  padding-left: 12px;
+  font-size: 0.875em;
+  line-height: 2.8875em;
+  color: #11435f;
+}
+#contact form textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+#contact form textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #999999;
+}
+#contact form textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #999999;
+}
+#contact form textarea:-ms-input-placeholder {
+  color: #999999;
+}
+#contact form .btn {
+  width: 100%;
+  min-width: 1px;
+  padding: 0px;
+}
+#contact .btn.btn--form {
+  margin-bottom: 3.8em;
+  background: #d05328;
+  color: #fff;
+  border: 1px solid #11435f;
+  border-radius: 2px;
+}
+#contact .btn.btn--form:hover {
+  color: #11435f;
+  background: #fff;
 }

@@ -756,6 +756,7 @@ section {
 ////////////////////////////////////////////////////////
 
 #newsletter {
+	margin-bottom: 170px;
 	form {
 		width: 100%;
 		display: block;
@@ -854,7 +855,6 @@ section {
 /*	Forms  */
 /////////////////////////////////////////////////////////
 form {
-	margin-bottom: 170px;
 	label {
 		width: 100%;
 		display: inline-block;
@@ -890,6 +890,8 @@ form {
 	  border: 1px solid @secondary;
 	}
 }
+
+
 
 /////////////////////////////////////////////////////////
 /*	Case Studies Page  */
@@ -1130,5 +1132,65 @@ p.phase {
 	font-size: 24px;
 	&.center {
 		text-align: center;
+	}
+}
+
+/////////////////////////////////////////////////////////
+/*	Contact  */
+////////////////////////////////////////////////////////
+
+#contact {
+	.title {
+		h4 {
+			margin-bottom: 2em;
+		}
+	}
+	form {
+		width: 100%;
+		display: block;
+		input {
+			margin-bottom: 1em;
+			width: 100%;
+			line-height: 12px;
+			height: 44px;
+		}
+		textarea {
+			width: 100%;
+			border: 1px solid @secondary;
+			border-radius: 2px;
+			margin-top: 0px;
+			padding-left: 12px;
+			font-size: @basefontsize;
+			line-height: @basefontsize * 3.3;
+			color: @secondary;
+			&::-webkit-input-placeholder {
+			 color: lighten((@basefontcolor),60%);
+			}
+			&:-moz-placeholder { /* Firefox 18- */
+			 color: lighten((@basefontcolor),60%);
+			}
+			&::-moz-placeholder {  /* Firefox 19+ */
+			 color: lighten((@basefontcolor),60%);
+			}
+			&:-ms-input-placeholder {  
+			 color: lighten((@basefontcolor),60%);
+			}
+		}
+		.btn {
+			width: 100%;
+			min-width: 1px;
+			padding: 0px;
+		}
+	}
+	.btn.btn--form {
+		margin-bottom: 3.8em;
+		background: @primary;
+		color: #fff;
+		border: 1px solid #11435f;
+		border-radius: 2px;
+		&:hover {
+			color: @secondary;
+			background: #fff;
+		}
 	}
 }

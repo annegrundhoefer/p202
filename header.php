@@ -43,7 +43,7 @@
 									<a href="case-studies.php"><li>What We Do</li></a>
 									<a href="process.php"><li>How We Do It</li></a>
 									<a href="blog.php"><li>News/Blog</li></a>
-									<a href="#"><li>Contact Us</li></a>
+									<a href="contact.php"><li>Contact Us</li></a>
 									<a href="#"><li>Careers</li></a>
 								</ul>
 								<!-- End menu -->

@@ -27,8 +27,11 @@
   html body section .row {
     padding: 0px 15px;
   }
-  html body .header {
-    position: fixed;
+  html body .show--mobile {
+    display: block !important;
+  }
+  html body .hide--mobile {
+    display: none;
   }
   html body .header img {
     width: 130%;
@@ -89,7 +92,7 @@
   html body .masthead h3 {
     margin: 0px;
   }
-  html body .masthead h5 {
+  html body .masthead a {
     margin: 16px 0px 0px 0px;
   }
   html body .masthead .bottom {
@@ -144,9 +147,10 @@
     padding-bottom: 30px;
     padding-top: 30px;
     width: 100%;
-    background: rgba(208, 83, 40, 0.7);
+    background: rgba(17, 67, 95, 0.9);
   }
   html body #footer {
+    margin-top: 5em;
     padding: 50px 0px 30px 0px;
   }
   html body #footer .logo {
@@ -176,23 +180,29 @@
   html body .fmenu ul li {
     padding: 10px 20px;
   }
-  .show--mobile {
-    display: block !important;
-  }
-  .hide--mobile {
-    display: none;
-  }
 }
 /*  Tablet  */
 @media all and (min-width: 768px) and (max-width: 1023px) {
   html body section .row {
     padding: 0px 15px;
   }
-  html body .header {
-    position: fixed;
+  html body .show--mobile {
+    display: block;
+  }
+  html body .no--mobilepadding {
+    padding: 0px 0px !important;
+  }
+  html body .hide--mobile {
+    display: none;
+  }
+  html body .mobile--padding {
+    padding: 30px;
+  }
+  html body .mobile--marginbottom {
+    margin-bottom: 1.33em;
   }
   html body .header img {
-    width: 50%;
+    width: 40%;
   }
   html body .header .menu {
     overflow: hidden;
@@ -250,7 +260,7 @@
   html body .masthead h3 {
     margin: 0px;
   }
-  html body .masthead h5 {
+  html body .masthead a {
     margin: 16px 0px 0px 0px;
   }
   html body .masthead .bottom {
@@ -261,9 +271,6 @@
     width: 100%;
     background: rgba(17, 67, 95, 0.9);
   }
-  html body .masthead .bottom.case--text {
-    bottom: 40vh;
-  }
   html body .masthead .case--text .authorimg {
     margin-top: 15px;
   }
@@ -273,8 +280,11 @@
   html body .masthead .case--text h4.author {
     margin: 40px 0px 20px 80px;
   }
-  html body #newsletter form {
-    margin-bottom: 3.8em;
+  html body h3.team--text {
+    margin-top: 0px;
+  }
+  html body .process.text--center {
+    text-align: center;
   }
   html body #newsletter form input {
     border-right: 1px solid #11435f;
@@ -316,18 +326,29 @@
   html body .case h3 {
     margin: 0px;
   }
-  html body .case h5 {
+  html body .case a {
     margin: 16px 0px 0px 0px;
   }
-  html body .case .row {
+  html body .case .bottom {
     position: absolute;
     bottom: 0px;
     padding-bottom: 30px;
     padding-top: 30px;
     width: 100%;
-    background: rgba(208, 83, 40, 0.7);
+    right: 0;
+    background: rgba(17, 67, 95, 0.9);
+  }
+  html body #contact .office {
+    margin-top: 3em;
+  }
+  html body #caseSingle .team-height {
+    wheight: 200px;
+  }
+  html body .case--white .view--jobs {
+    margin-bottom: 0em;
   }
   html body #footer {
+    margin-top: 5em;
     padding: 50px 0px 30px 0px;
   }
   html body #footer .logo {
@@ -356,15 +377,6 @@
   }
   html body .fmenu ul li {
     padding: 10px 20px;
-  }
-  html body .mobile--padding {
-    padding: 50px;
-  }
-  .show--mobile {
-    display: block;
-  }
-  .hide--mobile {
-    display: none;
   }
 }
 /*  Phone  */
@@ -378,11 +390,24 @@
   html body .hide--mobile {
     display: none;
   }
-  html body .header {
-    position: fixed;
+  html body .hide--iphone {
+    display: none;
+  }
+  html body .hide--iphone.line {
+    display: none;
+  }
+  html body .no--mobilepadding {
+    padding: 0px 0px !important;
+  }
+  html body .mobile--marginbottom {
+    margin-bottom: 1.33em;
+  }
+  html body header {
+    display: inline-block;
+    height: auto;
   }
   html body .header img {
-    width: 60%;
+    width: 80%;
   }
   html body .header .menu {
     overflow: hidden;
@@ -440,7 +465,7 @@
   html body .masthead h3 {
     margin: 0px;
   }
-  html body .masthead h5 {
+  html body .masthead a {
     margin: 16px 0px 0px 0px;
   }
   html body .masthead .bottom {
@@ -450,9 +475,6 @@
     padding-top: 30px;
     width: 100%;
     background: rgba(17, 67, 95, 0.9);
-  }
-  html body .masthead .bottom.case--text {
-    bottom: 40vh;
   }
   html body .masthead .case--text h4 {
     margin-top: 1em;
@@ -466,8 +488,8 @@
   html body .masthead .case--text h4.author {
     margin: 40px 0px 20px 80px;
   }
-  html body #newsletter form {
-    margin-bottom: 3.8em;
+  html body #newsletter {
+    margin-bottom: 0px;
   }
   html body #newsletter form input {
     border-right: 1px solid #11435f;
@@ -489,6 +511,9 @@
     background: #fff;
     color: #11435f;
   }
+  html body .process.text--center {
+    text-align: center;
+  }
   html body #wall ul {
     margin-top: 0px;
   }
@@ -509,16 +534,67 @@
   html body .case h3 {
     margin: 0px;
   }
-  html body .case h5 {
+  html body .case a {
     margin: 16px 0px 0px 0px;
   }
-  html body .case .row {
+  html body .case .bottom {
     position: absolute;
     bottom: 0px;
+    right: 0;
     padding-bottom: 30px;
     padding-top: 30px;
     width: 100%;
-    background: rgba(208, 83, 40, 0.7);
+    background: rgba(17, 67, 95, 0.9);
+  }
+  html body #careers ul li {
+    height: auto;
+  }
+  html body #careers ul li .job--title {
+    height: auto;
+    float: none;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+  }
+  html body #careers ul li .job--title .position {
+    top: 0;
+  }
+  html body #careers ul li .job--department {
+    width: 100%;
+    text-align: center;
+    float: none;
+    margin: 10px auto;
+  }
+  html body #careers ul li .job--department .department {
+    top: 0;
+  }
+  html body #careers ul li .job--location {
+    width: 100%;
+    text-align: center;
+    float: none;
+    bottom: 0;
+  }
+  html body #careers ul li .job--location .location {
+    margin-right: 0px;
+    top: 0;
+  }
+  html body #careers ul li .job--location .smaller {
+    display: block;
+    margin: 30px 20px;
+    background: #d05328;
+    color: #fff;
+  }
+  html body #contact .office {
+    margin-top: 3em;
+  }
+  html body #contact .line {
+    border-top: 0px;
+  }
+  html body .case--white .view--jobs {
+    margin-bottom: 0em;
+  }
+  html body #footer {
+    margin-top: 5em;
   }
   html body #footer .logo {
     margin-bottom: 0px;
@@ -543,7 +619,7 @@
     padding: 20px 32px;
     display: inline-block;
   }
-  html body #footer .mobile--padding {
+  html body #footer .footer--padding {
     padding-top: 20px;
   }
   html body .fmenu {

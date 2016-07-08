@@ -5,6 +5,7 @@
 			<div class="row start-md middle-md center-xs">
 				<div class="col-xs-12 col-md-3 start-md logo">
 					<img src="images/logo.svg">
+					<p>we make software make sense™</p>
 				</div>
 				<div class="col-xs-12 col-md-2 office col-sm-6">
 					<div class="line">
@@ -36,7 +37,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-offset-1 col-md-2 col-sm-6 office mobile--padding">
+				<div class="col-xs-12 col-md-offset-1 col-md-2 col-sm-6 office footer--padding">
 					<h4>Follow us</h4>
 					<ul>
 						<li><a href="https://www.facebook.com/projekt202" target="_blank"><i class="ion-social-facebook"></i>Facebook</a></li>

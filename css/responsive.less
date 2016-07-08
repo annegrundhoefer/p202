@@ -90,8 +90,13 @@
 					padding: 0px 15px;
 				}
 			}
+			.show--mobile {
+				display: block !important;
+			}
+			.hide--mobile {
+				display: none;
+			}
 			.header {
-				position: fixed;
 				img {
 					width: 130%;
 				}
@@ -153,7 +158,7 @@
 				h3 {
 					margin: 0px;
 				}
-				h5 {
+				a {
 					margin: 16px 0px 0px 0px;
 				}
 				.bottom {
@@ -212,10 +217,11 @@
 					padding-bottom: 30px;
 					padding-top: 30px;
 					width: 100%;
-					background: rgba(208, 83, 40, 0.7);
+					background: rgba(17, 67, 95, 0.9);
 				}
 			}
 			#footer {
+				margin-top: 5em;
 				padding: 50px 0px 30px 0px;
 				.logo {
 					margin-bottom: 0px;
@@ -247,12 +253,6 @@
 			}
 		}
 	}
-	.show--mobile {
-		display: block !important;
-	}
-	.hide--mobile {
-		display: none;
-	}
 }
 
 /////////////////////////////////////////////////////////
@@ -266,10 +266,24 @@
 					padding: 0px 15px;
 				}
 			}
+			.show--mobile {
+				display: block;
+			}
+			.no--mobilepadding {
+				padding: 0px 0px !important;
+			}
+			.hide--mobile {
+				display: none;
+			}
+			.mobile--padding {
+				padding: 30px;
+			}
+			.mobile--marginbottom {
+				margin-bottom: 1.33em;
+			}
 			.header {
-				position: fixed;
 				img {
-					width: 50%;
+					width: 40%;
 				}
 				.menu {
 					overflow: hidden;
@@ -329,7 +343,7 @@
 				h3 {
 					margin: 0px;
 				}
-				h5 {
+				a {
 					margin: 16px 0px 0px 0px;
 				}
 				.bottom {
@@ -339,9 +353,6 @@
 					padding-top: 30px;
 					width: 100%;
 					background: rgba(17, 67, 95, 0.9);
-					&.case--text {
-						bottom: 40vh;
-					}
 				}
 				.case--text {
 					.authorimg {
@@ -355,9 +366,16 @@
 					}
 				}
 			}
+			h3.team--text {
+				margin-top: 0px;
+			}
+			.process {
+				&.text--center {
+					text-align: center;
+				}
+			}
 			#newsletter {
 				form {
-					margin-bottom: 3.8em;
 					input {
 						border-right: 1px solid @secondary;
 						border-bottom-right-radius: 2px;
@@ -401,19 +419,36 @@
 				h3 {
 					margin: 0px;
 				}
-				h5 {
+				a {
 					margin: 16px 0px 0px 0px;
 				}
-				.row {
+				.bottom {
 					position: absolute;
 					bottom: 0px;
 					padding-bottom: 30px;
 					padding-top: 30px;
 					width: 100%;
-					background: rgba(208, 83, 40, 0.7);
+					right: 0;
+					background: rgba(17, 67, 95, 0.9);
+				}
+			}
+			#contact {
+				.office {
+					margin-top: 3em;
+				}
+			}
+			#caseSingle {
+				.team-height {
+					wheight: 200px;
+				}
+			}
+			.case--white {
+				.view--jobs {
+					margin-bottom: 0em;
 				}
 			}
 			#footer {
+				margin-top: 5em;
 				padding: 50px 0px 30px 0px;
 				.logo {
 					margin-bottom: 0px;
@@ -443,16 +478,7 @@
 					}
 				}
 			}
-			.mobile--padding {
-				padding: 50px;
-			}
 		}
-	}
-	.show--mobile {
-		display: block;
-	}
-	.hide--mobile {
-		display: none;
 	}
 }
 
@@ -473,11 +499,25 @@
 			.hide--mobile {
 				display: none;
 			}
-
+			.hide--iphone {
+				display: none;
+				&.line {
+					display:none;
+				}
+			}
+			.no--mobilepadding {
+				padding: 0px 0px !important;
+			}
+			.mobile--marginbottom {
+				margin-bottom: 1.33em;
+			}
+			header {
+				display: inline-block;
+				height: auto;
+			}
 			.header {
-				position: fixed;
 				img {
-					width: 60%;
+					width: 80%;
 				}
 				.menu {
 					overflow: hidden;
@@ -537,7 +577,7 @@
 				h3 {
 					margin: 0px;
 				}
-				h5 {
+				a {
 					margin: 16px 0px 0px 0px;
 				}
 				.bottom {
@@ -547,9 +587,6 @@
 					padding-top: 30px;
 					width: 100%;
 					background: rgba(17, 67, 95, 0.9);
-					&.case--text {
-						bottom: 40vh;
-					}
 				}
 				.case--text {
 					h4 {
@@ -567,8 +604,8 @@
 				}
 			}
 			#newsletter {
+				margin-bottom: 0px;
 				form {
-					margin-bottom: 3.8em;
 					input {
 						border-right: 1px solid @secondary;
 						border-bottom-right-radius: 2px;
@@ -589,6 +626,11 @@
 							color: @secondary;
 						}
 					}
+				}
+			}
+			.process {
+				&.text--center {
+					text-align: center;
 				}
 			}
 			#wall {
@@ -612,19 +654,76 @@
 				h3 {
 					margin: 0px;
 				}
-				h5 {
+				a {
 					margin: 16px 0px 0px 0px;
 				}
-				.row {
+				.bottom {
 					position: absolute;
 					bottom: 0px;
+					right: 0;
 					padding-bottom: 30px;
 					padding-top: 30px;
 					width: 100%;
-					background: rgba(208, 83, 40, 0.7);
+					background: rgba(17, 67, 95, 0.9);
+				}
+			}
+			#careers {
+				ul {
+					li {
+						height: auto;
+						.job--title {
+							height: auto;
+							float: none;
+							margin: 0px auto;
+							width: 100%;
+							text-align: center;
+							.position {
+								top: 0;
+							}
+						}
+						.job--department {
+							width: 100%;
+							text-align: center;
+							float: none;
+							margin: 10px auto;
+							.department {
+								top: 0;
+							}
+						}
+						.job--location {
+							width: 100%;
+							text-align: center;
+							float: none;
+							bottom: 0;
+							.location {
+								margin-right: 0px;
+								top: 0;
+							}
+							.smaller {
+								display: block;
+								margin: 30px 20px;
+								background: @primary;
+								color: #fff;
+							}
+						}
+					}
+				}
+			}
+			#contact {
+				.office {
+					margin-top: 3em;
+				}
+				.line {
+					border-top: 0px;
+				}
+			}
+			.case--white {
+				.view--jobs {
+					margin-bottom: 0em;
 				}
 			}
 			#footer {
+				margin-top: 5em;
 				.logo {
 					margin-bottom: 0px;
 					img {
@@ -648,7 +747,7 @@
 					padding: 20px 32px;
 					display: inline-block;
 				}
-				.mobile--padding {
+				.footer--padding {
 					padding-top: 20px;
 				}
 			}

@@ -1,3 +1,4 @@
+// mobile menu
 $(document).ready(function($){
   $('.menu-toggle').click(function(){
 $(this).toggleClass('is-active');
@@ -7,6 +8,24 @@ $(this).toggleClass('is-active');
     $('.sub-menu').hide();
   });
 });
+
+// header fade on front page
+(function($) {          
+    $(document).ready(function(){ 
+      if($("#homepage-flag").length > 0) {
+        $("#header").addClass("header--fade");
+      } else {
+        $("#header").removeClass("header--fade");
+      }           
+    $(window).scroll(function(){                          
+      if ($(this).scrollTop() > 300) {
+        $('.header--fade').slideDown(400);
+      } else {
+        $('.header--fade').slideUp(300);
+      }
+    });
+  });
+})(jQuery);
 
 // external js: isotope.pkgd.js
 

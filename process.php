@@ -1,4 +1,4 @@
-<?php include('header-pages.php'); ?>
+<?php include('header.php'); ?>
 
 	<section>
 		<div class="row center-xs center-md">
@@ -11,7 +11,7 @@
 
 	<!-- Revealing Reality -->
 	<section>
-		<div class="col-xs-12 col-md-12 middle-xs process--text" style="background: url('images/revealing_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
+		<div class="col-xs-12 col-md-12 middle-xs no--hover process--text" style="background: url('images/revealing_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
 			<div class="row item middle-xs center-xs center-md middle-md">
 				<div class="col-xs-12 col-md-8">
 					<div class="border">
@@ -33,7 +33,7 @@
 
 	<!-- Focused Innovation -->
 	<section>
-		<div class="col-xs-12 col-md-12 middle-xs process--text" style="background: url('images/focused_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
+		<div class="col-xs-12 col-md-12 middle-xs process--text no--hover" style="background: url('images/focused_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
 			<div class="row item middle-xs center-xs center-md middle-md">
 				<div class="col-xs-12 col-md-8">
 					<div class="border">
@@ -55,7 +55,7 @@
 
 	<!-- Building and Evolving -->
 	<section>
-		<div class="col-xs-12 col-md-12 middle-xs process--text" style="background: url('images/building_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
+		<div class="col-xs-12 col-md-12 middle-xs process--text no--hover" style="background: url('images/building_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
 			<div class="row item middle-xs center-xs center-md middle-md">
 				<div class="col-xs-12 col-md-8">
 					<div class="border">
@@ -77,7 +77,7 @@
 
 	<!-- Launch Go-Live -->
 	<section>
-		<div class="col-xs-12 col-md-12 middle-xs process--text" style="background: url('images/launch_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
+		<div class="col-xs-12 col-md-12 middle-xs process--text no--hover" style="background: url('images/launch_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
 			<div class="row item middle-xs center-xs center-md middle-md">
 				<div class="col-xs-12 col-md-8">
 					<div class="border">
@@ -116,7 +116,7 @@
 		<div class="row">
 			<div class="col-xs-12 center-xs title">
 				<h1 class="text--primary">Subscribe to our newsletter</h1>
-				<h4 class="text--gray">We value your privacy. None of the details supplied will be shared.</h4>
+				<h4 class="text--gray mobile--marginbottom">We value your privacy. None of the details supplied will be shared.</h4>
 			</div>
 		</div>
 		<div class="row center-md center-xs">

@@ -13,19 +13,17 @@
 	<body>
 
 		<!-- Begin header -->
-		<header>
+		<header id ="header" class="header--fixed header--fade">
 			<section>
-				<div class="row middle-md header center-xs">
-					<div class="col-xs-12 col-sm-11 col-md-12">
-						<div class="row middle-xs start-xs">
+				<div class="row middle-md header center-xs no--mobilepadding">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="row middle-xs start-xs no--mobilepadding">
 
 							<!-- Logo -->
 							<div class="col-xs-6 col-md-2 col-lg-3">
-								<div class="show--mobile">
-									<a href="index.php">
-										<img src="images/logo.svg">
-									</a>
-								</div>
+								<a href="index.php">
+									<img src="images/logo.svg">
+								</a>
 							</div>
 							<!-- End logo -->
 
@@ -44,7 +42,7 @@
 									<a href="process.php"><li>How We Do It</li></a>
 									<a href="blog.php"><li>News/Blog</li></a>
 									<a href="contact.php"><li>Contact Us</li></a>
-									<a href="#"><li>Careers</li></a>
+									<a href="careers.php"><li>Careers</li></a>
 								</ul>
 								<!-- End menu -->
 							</div>

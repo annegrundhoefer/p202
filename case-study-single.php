@@ -1,6 +1,6 @@
-<?php include('header-pages.php'); ?>
+<?php include('header.php'); ?>
 
-	<div class="row middle-md row__threeFourths-height masthead">
+	<div class="row middle-md row__threeFourths-height masthead margin--top">
 
 		<!-- SVG Slant -->
 		<svg class="slant" viewBox="0 0 3200 800" height= "100%" preserveAspectRatio="xMaxYMax slice" style="position: absolute; min-height: 60vh; max-height: 60vh; top: 0px; left: 0px;">
@@ -9,7 +9,7 @@
 		<!-- End SVG Slant -->
 
 		<div class="col-xs-12 middle-xs bottom case--text">
-			<div class="col-md-offset-1 col-md-4 col-lg-3 col-xs-11 col-sm-11 start-md">
+			<div class="col-md-offset-1 col-md-4 col-lg-3 col-xs-12 col-sm-11 start-md">
 				<h4>Case Study</h4>
 				<h3>Something Something Something this is Sirius XM</h3>
 			</div>
@@ -83,7 +83,7 @@
 		<div class="row">
 			<div class="col-xs-12 center-xs title">
 				<h1 class="text--primary">Subscribe to our newsletter</h1>
-				<h4 class="text--gray">We value your privacy. None of the details supplied will be shared.</h4>
+				<h4 class="text--gray mobile--marginbottom">We value your privacy. None of the details supplied will be shared.</h4>
 			</div>
 		</div>
 		<div class="row center-md center-xs">

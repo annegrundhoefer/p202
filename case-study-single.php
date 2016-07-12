@@ -40,13 +40,13 @@
 	<!-- End Case Story Block 1 -->
 
 	<!-- Case Story Block 2 -->
-	<div class="row row__threeFourths-height case--white middle-xs">
+	<div class="row row__threeFourths-height case--white middle-xs last-xs first-md">
 		<div class="col-xs-12 col-md-offset-1 col-md-4 mobile--padding">
 			<h4>1. Challenge</h4>
 			<h3>Obsolete equipment and time-draining inventory steps need to be shelved.</h3>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
 		</div>
-		<div class="col-xs-12 col-md-offset-1 col-md-6 no--padding">
+		<div class="col-xs-12 col-md-offset-1 col-md-6 first-xs last-md no--padding">
 			<img src="http://placehold.it/600x500">
 		</div>
 	</div>
@@ -66,13 +66,13 @@
 	<!-- End Case Story Block 3 -->
 
 	<!-- Case Story Block 4 -->
-	<div class="row row__threeFourths-height case--orange middle-xs">
+	<div class="row row__threeFourths-height case--orange middle-xs last-xs first-md">
 		<div class="col-xs-12 col-md-offset-1 col-md-4 mobile--padding">
 			<h4>1. Challenge</h4>
 			<h3>Obsolete equipment and time-draining inventory steps need to be shelved.</h3>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
 		</div>
-		<div class="col-xs-12 col-md-offset-1 col-md-6 no--padding">
+		<div class="col-xs-12 col-md-offset-1 col-md-6 first-xs last-md no--padding">
 			<img src="http://placehold.it/600x500">
 		</div>
 	</div>

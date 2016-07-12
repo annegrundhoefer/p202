@@ -96,7 +96,7 @@
 				<div class="row col-md-10 middle-md case">
 				
 					<!-- SVG Slant -->
-					<svg class="slant" viewBox="0 0 3600 800" height= "100%" preserveAspectRatio="xMaxYMax slice" style="position: absolute; min-height: 50vh; max-height: 50vh; bottom: 0px; left: 0px;">
+					<svg class="slant" viewBox="0 0 3600 1600" height= "100%" preserveAspectRatio="xMaxYMax slice" style="position: absolute; min-height: 50vh; max-height: 50vh; bottom: 0px; left: 0px;">
 		  			<polygon class="poly active" opacity=".9" fill="#11435F" points="1200,3200 0,3200 0,0 2400,0"/></polygon>
 					</svg>
 					<!-- End SVG Slant -->

@@ -38,11 +38,11 @@
 								
 								<!-- Menu -->
 								<ul class="sub-menu hide--mobile">
-									<a href="case-studies.php"><li>What We Do</li></a>
-									<a href="process.php"><li>How We Do It</li></a>
+									<a href="case-studies.php"><li>Case Studies</li></a>
+									<a href="process.php"><li>Process</li></a>
 									<a href="blog.php"><li>News/Blog</li></a>
-									<a href="contact.php"><li>Contact Us</li></a>
 									<a href="careers.php"><li>Careers</li></a>
+									<a href="contact.php"><li>Contact Us</li></a>
 								</ul>
 								<!-- End menu -->
 							</div>

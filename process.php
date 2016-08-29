@@ -11,7 +11,7 @@
 
 	<!-- Revealing Reality -->
 	<section>
-		<div class="col-xs-12 col-md-12 middle-xs no--hover process--text" style="background: url('images/revealing_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
+			<div class="col-xs-12 col-md-12 middle-xs process--text no--hover heading" id="heading-1" style="background: url('images/revealing_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; padding: 0px 0px; width: 100%; background-position: 50% 50%;">
 			<div class="row item middle-xs center-xs center-md middle-md">
 				<div class="col-xs-12 col-md-8">
 					<div class="border">
@@ -25,7 +25,6 @@
 		<div class="row">
 			<div class="col-xs-12 col-md-offset-2 col-md-6 blog--text">
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 			</div>
 		</div>
 	</section>
@@ -33,7 +32,7 @@
 
 	<!-- Focused Innovation -->
 	<section>
-		<div class="col-xs-12 col-md-12 middle-xs process--text no--hover" style="background: url('images/focused_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
+		<div class="col-xs-12 col-md-12 middle-xs process--text no--hover heading" id="heading-2" style="background: url('images/focused_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; padding: 0px 0px; width: 100%;">
 			<div class="row item middle-xs center-xs center-md middle-md">
 				<div class="col-xs-12 col-md-8">
 					<div class="border">
@@ -47,7 +46,6 @@
 		<div class="row">
 			<div class="col-xs-12 col-md-offset-2 col-md-6 blog--text">
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 			</div>
 		</div>
 	</section>
@@ -55,7 +53,7 @@
 
 	<!-- Building and Evolving -->
 	<section>
-		<div class="col-xs-12 col-md-12 middle-xs process--text no--hover" style="background: url('images/building_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
+		<div class="col-xs-12 col-md-12 middle-xs process--text no--hover heading" id="heading-3" style="background: url('images/building_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
 			<div class="row item middle-xs center-xs center-md middle-md">
 				<div class="col-xs-12 col-md-8">
 					<div class="border">
@@ -69,7 +67,6 @@
 		<div class="row">
 			<div class="col-xs-12 col-md-offset-2 col-md-6 blog--text">
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 			</div>
 		</div>
 	</section>
@@ -77,7 +74,7 @@
 
 	<!-- Launch Go-Live -->
 	<section>
-		<div class="col-xs-12 col-md-12 middle-xs process--text no--hover" style="background: url('images/launch_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
+		<div class="col-xs-12 col-md-12 middle-xs process--text no--hover heading" id="heading-4" style="background: url('images/launch_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 400px; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
 			<div class="row item middle-xs center-xs center-md middle-md">
 				<div class="col-xs-12 col-md-8">
 					<div class="border">
@@ -91,7 +88,6 @@
 		<div class="row">
 			<div class="col-xs-12 col-md-offset-2 col-md-6 blog--text">
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 			</div>
 		</div>
 	</section>
@@ -99,10 +95,10 @@
 
 	<!-- Quote -->
 	<section>
-		<div class="col-xs-12 col-md-12 middle-xs process--orange" style="background: url('images/revealing_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; background-position: 50% 50%; padding: 0px 0px; width: 100%;">
+		<div class="col-xs-12 col-md-12 middle-xs process--orange heading" id="heading-5" style="background: url('images/revealing_large.png') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; background-position: 50% 50%; padding: 0px 0px; width: 100%; height: 400px;">
 			<div class="row item middle-xs center-xs center-md middle-md">
 				<div class="col-xs-12 col-md-8">
-					<p class="phase center">“Our proven methodology reveals the truth about people’s challenges, needs, aspirations and emotional states by observing their behavior in context. Then, we gain a deeper understanding by asking questions related to those observations, layering in business and market evidence to gain a holistic view of the company, the users, and their goals in order to deliver a better experience.”</p>
+					<p class="phase center">“Our proven methodology reveals the truth about people’s challenges, needs, aspirations and emotional states by observing their behavior in context. Then, we gain a deeper understanding by asking questions related to those observations, layering in business and market evidence to gain a holistic view of the company and users to deliver a better experience.”</p>
 					<h5 class="quote center">Aliza Gold, VP of Experience Strategy & Design Research</h5>
 				</div>
 			</div>

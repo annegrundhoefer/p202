@@ -334,11 +334,6 @@ span.hamburger-inner::after {
 }
 /*	Masthead  */
 .masthead {
-  background-image: url('../images/studio.jpeg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   position: relative;
 }
 .masthead.margin--top {
@@ -395,11 +390,26 @@ span.hamburger-inner::after {
   bottom: 0px;
   min-height: 810px;
 }
+.masthead .dash {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: dash 0.8s linear forwards;
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  -o-animation-delay: 0.7s;
+  -ms-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 .masthead .case--text h4 {
   text-transform: uppercase;
   color: #fff;
   font-size: 16px;
-  z-index: 0;
+  z-index: 1;
   position: relative;
   margin-top: 0em;
   font-family: 'Geogrotesque Medium', sans-serif;
@@ -428,6 +438,20 @@ span.hamburger-inner::after {
 .masthead .case--text .authorimg {
   position: absolute;
   border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  z-index: 0;
+  opacity: 0;
+  -webkit-animation: right 1s 1 forwards;
+  -moz-animation: right 1s 1 forwards;
+  -o-animation: right 1s 1 forwards;
+  -ms-animation: right 1s 1 forwards;
+  animation: right 1s 1 forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  -ms-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 .masthead .logoimg {
   z-index: 1;
@@ -631,14 +655,80 @@ section .row {
   font-family: 'Geogrotesque Medium', sans-serif;
   display: block;
 }
+.service--block {
+  border-bottom: 1px solid rgba(146, 151, 163, 0.1);
+  background-color: #fafafa;
+  width: 100%;
+}
+.service--block .service {
+  margin: 1.33em 0em;
+  padding: 0em 1.66em 0em 1.66em;
+}
+.service--block .service h4 {
+  margin-bottom: 0em;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  color: #d05328;
+  letter-spacing: 0.5px;
+}
+.service--block .service p {
+  color: #9297a3;
+  font-size: 1em;
+}
+.service--block .service ul {
+  color: #11435f;
+  padding-left: 0em;
+  margin-top: 0;
+}
+.service--block .service ul li {
+  position: relative;
+  padding-left: 36px;
+  font-size: 1em;
+  list-style-type: none;
+  margin-top: 1em;
+}
+.service--block .service .line {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 16px;
+  height: 1px;
+  background: #d05328;
+}
+.service--block .service .view--jobs {
+  color: #11435f;
+  text-transform: uppercase;
+  letter-spacing: 2;
+  position: relative;
+  font-size: 16px;
+  margin-top: 1em;
+}
+.service--block .service .view--jobs:hover {
+  color: #11435f;
+  transition: all 0.2s ease-in-out;
+}
+.service--block .service .view--jobs i {
+  font-size: 32px;
+  position: absolute;
+  top: -5px;
+  right: -45px;
+}
 .case {
-  background-image: url('../images/mast.png');
+  margin-bottom: 3.8em;
+  background: url('../images/mast.png');
   background-size: cover;
   background-position: 50% 50%;
   height: 50vh;
   position: relative;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+.case.case--bottom {
+  margin-bottom: 0em;
+  background: url('../images/case.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 .case:hover {
   background-position: 55% 55%;
@@ -848,19 +938,80 @@ form .select2-selection {
   color: #fff;
   font-size: 16px;
   font-family: 'Geogrotesque Medium', sans-serif;
-  opacity: 0.5;
+  opacity: 0.7;
   letter-spacing: 2px;
 }
 #caseSingle h3 {
   color: #fff;
 }
-#caseSingle .case-study-content {
+#caseSingle a {
+  display: block;
+}
+#caseSingle .image-container {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  margin: 0;
+  margin-bottom: 3em;
+  cursor: pointer;
+}
+#caseSingle .image-container .case-study-content {
   position: relative;
   z-index: 1;
   opacity: 0;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
+  transition: 0.2s ease-out;
+  -webkit-transition: 0.2s ease-out;
+}
+#caseSingle .image-container .overlay-orange {
+  display: block;
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  top: 0;
+  left: -100%;
+  transition: 0.4s ease-out;
+  -webkit-transition: 0.4s ease-out;
+}
+#caseSingle .image-container .overlay-orange .rectangle {
+  position: absolute;
+  top: 0;
+  display: block;
+  margin-left: -200px;
+  width: 100%;
+  height: 100%;
+  background: rgba(208, 83, 40, 0.85);
+}
+#caseSingle .image-container .overlay-orange .arrow-left {
+  position: absolute;
+  right: 0;
+  width: 0;
+  height: 0;
+  top: 0;
+  bottom: 0;
+  border-bottom: 400px solid transparent;
+  border-left: 201px solid rgba(208, 83, 40, 0.78);
+}
+#caseSingle .image-container:hover .overlay-orange {
+  left: 200px;
+}
+#caseSingle .image-container:hover .case-study-content {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-out;
+}
+#caseSingle .image-container.team-container {
+  margin-bottom: 1em;
+  cursor: default;
 }
 #caseSingle .case-study-height {
   height: 400px;
@@ -868,42 +1019,9 @@ form .select2-selection {
 #caseSingle .team-height {
   height: 255px;
 }
-#caseSingle a {
-  display: block;
-}
-#caseSingle .image-container {
-  width: 100%;
-  margin-bottom: 3em;
-  position: relative;
-  cursor: pointer;
-}
-#caseSingle .image-container.team-container {
-  margin-bottom: 1em;
-  cursor: default;
-}
-#caseSingle .image-container:hover::after {
-  opacity: 1;
-}
-#caseSingle .image-container:hover .case-study-content {
-  opacity: 1;
-}
-#caseSingle .image-container::after {
-  transition: all 0.2s ease-in-out;
-  opacity: 0;
-  content: '';
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 100%;
-  background: rgba(208, 83, 40, 0.78);
-  z-index: 0;
-}
 /*	Case Studies Single  */
 .statement h4 {
-  margin: 2em 1.33em 2em 1.33em;
+  margin: 3em 1.33em 3em 1.33em;
   font-size: 1.4em;
   line-height: 1.5em;
 }
@@ -1025,7 +1143,8 @@ form .select2-selection {
   margin-bottom: 3em;
 }
 .blog--text p {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  line-height: 1.9em;
   text-align: left;
   color: #0D354C;
 }
@@ -1050,7 +1169,7 @@ h3.team--text {
   opacity: .8;
 }
 .process--orange .item {
-  height: auto;
+  height: 100%;
 }
 .process {
   text-align: left;
@@ -1063,7 +1182,7 @@ h3.team--text {
   margin-bottom: 3em;
 }
 .process h4.margin--bottom {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 .border {
   border-bottom: 2px solid #fff;
@@ -1118,6 +1237,13 @@ p.phase.center {
 }
 #contact .office ul li {
   padding: 10px 0px;
+  position: relative;
+}
+#contact .office ul li i {
+  color: #11435f;
+  position: absolute;
+  left: -1.5em;
+  display: none;
 }
 #contact h4 {
   text-transform: uppercase;

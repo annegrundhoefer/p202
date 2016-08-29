@@ -4,11 +4,14 @@
 	<span id="homepage-flag" style="display: none" /></span>
 	<!-- Flag for jQuery header -->
 
-		<div class="row middle-md row__full-height masthead">
+		<div class="row middle-md row__full-height masthead" style="background: url('./images/mast_01.jpg'); background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
 
 			<!-- SVG Slant -->
 			<svg class="slant" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2880 1620" height= "100%" preserveAspectRatio="xMaxYMax slice" style="position: absolute; bottom: 0px; min-height: 810px;">
   				<polygon class="poly active" opacity=".9" fill="#11435F" points="800,3200 0,3200 0,0 1800,0"/></polygon>
+  				<svg height="100%" width="100%">
+				  <line class="dash" x1="1840" y1="0" x2="1500" y2="1100" style="stroke:#D05328; stroke-width:2.5"/>
+				</svg>
 			</svg>
 			<!-- End SVG Slant -->
 
@@ -20,6 +23,70 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Begin Services -->
+		<div class="col-sm-12 service--block">
+			<div class="row row__half-height col-sm-11 middle-md middle-xs">
+				<div class="col-xs-12 col-sm-6 col-md-3 service">
+					<div class="row item middle-xs">
+						<h4>UX Strategy & Design Research</h4>
+						<p>Skillfully blending expertise in behavioral science, strategy, design and development.</p>
+						<ul>
+							<li><div class="line"></div>HTML5 Semantic Code</li>
+							<li><div class="line"></div>Retina Display Support</li>
+							<li><div class="line"></div>SASS/LESS/PostCSS preprocessors</li>
+							<li><div class="line"></div>HTML5 Audio & Video</li>
+							<li><div class="line"></div>Custom JS Features</li>
+							<li><div class="line"></div>Custom Animations</li>
+						</ul>
+						<!-- <a class="view--jobs link link--slash" href="careers.php">Read More<i class="ion-ios-arrow-thin-right"></i></a> -->
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 service">
+					<div class="row item">
+						<h4>User Experience Design</h4>
+						<p>Skillfully blending expertise in behavioral science, strategy, design and development.</p>
+						<ul>
+							<li><div class="line"></div>HTML5 Semantic Code</li>
+							<li><div class="line"></div>Retina Display Support</li>
+							<li><div class="line"></div>SASS/LESS/PostCSS preprocessors</li>
+							<li><div class="line"></div>HTML5 Audio & Video</li>
+							<li><div class="line"></div>Custom JS Features</li>
+							<li><div class="line"></div>Custom Animations</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 service">
+					<div class="row item">
+						<h4>Technology</h4>
+						<p>Skillfully blending expertise in behavioral science, strategy, design and development.</p>
+						<ul>
+							<li><div class="line"></div>HTML5 Semantic Code</li>
+							<li><div class="line"></div>Retina Display Support</li>
+							<li><div class="line"></div>SASS/LESS/PostCSS preprocessors</li>
+							<li><div class="line"></div>HTML5 Audio & Video</li>
+							<li><div class="line"></div>Custom JS Features</li>
+							<li><div class="line"></div>Custom Animations</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 service">
+					<div class="row item">
+						<h4>Digital Marketing & Analytics</h4>
+						<p>Skillfully blending expertise in behavioral science, strategy, design and development.</p>
+						<ul>
+							<li><div class="line"></div>HTML5 Semantic Code</li>
+							<li><div class="line"></div>Retina Display Support</li>
+							<li><div class="line"></div>SASS/LESS/PostCSS preprocessors</li>
+							<li><div class="line"></div>HTML5 Audio & Video</li>
+							<li><div class="line"></div>Custom JS Features</li>
+							<li><div class="line"></div>Custom Animations</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Services -->
 
 		<!-- Begin Process Block -->
 		<div class="row row__half-height title">
@@ -78,6 +145,9 @@
 					<!-- SVG Slant -->
 					<svg class="slant" viewBox="0 0 2800 1600" height= "100%" preserveAspectRatio="xMaxYMax slice" style="position: absolute; bottom: 0px; right:0px; max-height: 50vh; min-height:50vh;">
 						<polygon class="poly active" opacity=".9" fill="#11435F" points="1200,3200 0,3200 0,0 2400,0" transform="translate(2800, 0) scale(-1, 1)"/></polygon>
+						<svg height="100%" width="100%">
+							<line class="dash" x1="345" y1="0" x2="750" y2="1100" style="stroke:#D05328; stroke-width:3.5"/>
+						</svg>
 					</svg>
 					<!-- End SVG Slant -->
 
@@ -93,11 +163,14 @@
 
 			<!-- Case Study 2 -->	
 			<div class="row">	
-				<div class="row col-md-10 middle-md case">
+				<div class="row col-md-10 middle-md case case--bottom">
 				
 					<!-- SVG Slant -->
 					<svg class="slant" viewBox="0 0 3600 1600" height= "100%" preserveAspectRatio="xMaxYMax slice" style="position: absolute; min-height: 50vh; max-height: 50vh; bottom: 0px; left: 0px;">
 		  			<polygon class="poly active" opacity=".9" fill="#11435F" points="1200,3200 0,3200 0,0 2400,0"/></polygon>
+		  			<svg height="100%" width="100%">
+						<line class="dash" x1="2450" y1="0" x2="2065" y2="1100" style="stroke:#D05328; stroke-width:3.5"/>
+					</svg>
 					</svg>
 					<!-- End SVG Slant -->
 
@@ -136,31 +209,31 @@
 			<div class="row center-xs grid-container">
 				<div class="col-md-10 grid">
 					<div class="wall-item insight" data-category="insight">
-						<img src="http://placehold.it/376x506">
+						<img src="./images/mast_01.jpg">
 					</div>
 					<div class="wall-item tweets" data-category="tweets">
-						<img src="http://placehold.it/376x294">
+						<img src="./images/mast_06.png">
 					</div>
 					<div class="wall-item videos" data-category="videos">
-						<img src="http://placehold.it/376x376">
+						<img src="./images/cason.jpg">
 					</div>
 					<div class="wall-item news" data-category="news">
-						<img src="http://placehold.it/376x222">
+						<img src="./images/jessica.jpg">
 					</div>
 					<div class="wall-item podcasts" data-category="podcasts">
-						<img src="http://placehold.it/376x376">
+						<img src="./images/building_gray.png">
+					</div>
+					<div class="wall-item podcasts" data-category="insight">
+						<img src="./images/contact.png">
 					</div>
 					<div class="wall-item insight" data-category="insight">
-						<img src="http://placehold.it/376x565">
+						<img src="./images/mast_03.jpg">
 					</div>
 					<div class="wall-item insight" data-category="insight">
-						<img src="http://placehold.it/376x376">
+						<img src="./images/mast_04.jpg">
 					</div>
 					<div class="wall-item insight" data-category="insight">
-						<img src="http://placehold.it/376x506">
-					</div>
-					<div class="wall-item insight" data-category="insight">
-						<img src="http://placehold.it/376x212">
+						<img src="./images/mast_02.jpg">
 					</div>
 				</div>
 			</div>

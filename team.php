@@ -15,6 +15,10 @@
 		<div class="row col-md-9 col-xs-10">
 			<div class="col-md-3 col-sm-4 col-xs-12">
 				<div class="image-container team-container" style="background: url('http://placehold.it/600x500') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
+					<div class="overlay-orange">
+						<div class="arrow-left"></div>
+						<div class="rectangle"></div>
+					</div>
 					<div class="row middle-xs center-xs team-height">
 						<div class="col-xs-12 case-study-content">
 							<h3 class="team--text">Anne Grundhoefer</h3>
@@ -25,6 +29,10 @@
 			</div>
 			<div class="col-md-3 col-sm-4 col-xs-12">
 				<div class="image-container team-container" style="background: url('http://placehold.it/600x500') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
+					<div class="overlay-orange">
+						<div class="arrow-left"></div>
+						<div class="rectangle"></div>
+					</div>
 					<div class="row middle-xs center-xs team-height">
 						<div class="col-xs-12 case-study-content">
 							<h3 class="team--text">Anne Grundhoefer</h3>
@@ -35,6 +43,10 @@
 			</div>
 			<div class="col-md-3 col-sm-4 col-xs-12">
 				<div class="image-container team-container" style="background: url('http://placehold.it/600x500') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
+					<div class="overlay-orange">
+						<div class="arrow-left"></div>
+						<div class="rectangle"></div>
+					</div>
 					<div class="row middle-xs center-xs team-height">
 						<div class="col-xs-12 case-study-content">
 							<h3 class="team--text">Anne Grundhoefer</h3>
@@ -45,6 +57,10 @@
 			</div>
 			<div class="col-md-3 col-sm-4 col-xs-12">
 				<div class="image-container team-container" style="background: url('http://placehold.it/600x500') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
+					<div class="overlay-orange">
+						<div class="arrow-left"></div>
+						<div class="rectangle"></div>
+					</div>
 					<div class="row middle-xs center-xs team-height">
 						<div class="col-xs-12 case-study-content">
 							<h3 class="team--text">Anne Grundhoefer</h3>
@@ -55,6 +71,10 @@
 			</div>
 			<div class="col-md-3 col-sm-4 col-xs-12">
 				<div class="image-container team-container" style="background: url('http://placehold.it/600x500') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
+					<div class="overlay-orange">
+						<div class="arrow-left"></div>
+						<div class="rectangle"></div>
+					</div>
 					<div class="row middle-xs center-xs team-height">
 						<div class="col-xs-12 case-study-content">
 							<h3 class="team--text">Anne Grundhoefer</h3>
@@ -65,6 +85,10 @@
 			</div>
 			<div class="col-md-3 col-sm-4 col-xs-12">
 				<div class="image-container team-container" style="background: url('http://placehold.it/600x500') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;">
+					<div class="overlay-orange">
+						<div class="arrow-left"></div>
+						<div class="rectangle"></div>
+					</div>
 					<div class="row middle-xs center-xs team-height">
 						<div class="col-xs-12 case-study-content">
 							<h3 class="team--text">Anne Grundhoefer</h3>
